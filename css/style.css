@@ -1,0 +1,93 @@
+@import url("navbar.css");
+@import url("banner.css");
+
+body{
+    text-align: center;
+    background-color: #FDC354;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    color: #195098;
+    margin-bottom: 3%;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.7em;
+    margin: 2%;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+    margin: 2%;
+}
+h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3em;
+    margin: 2%;
+}
+p{
+    font-size: 1.1em;
+    line-height: 20px;
+}
+a:hover{
+ color:red;
+
+}
+.img{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 75px; 
+    height: 75px; 
+    overflow: hidden; 
+    border-radius: 50%;
+}
+.list{
+    text-align: left;
+}
+.card_master{
+    background-color: #ff7b00;
+    width: 80vw;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    padding: 4%;
+}
+.card{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.profil{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+.resume{
+    width: 60%;
+}
+.profil{
+    width: 35%;
+}
+#fandom{
+    background-color: #0034C0;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    margin-top: 2%;
+    color: aliceblue;
+}
+#fandom:hover{
+    background-color: #022689;
+}

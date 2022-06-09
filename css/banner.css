@@ -1,0 +1,7 @@
+.banner{
+    width: 100vw;
+    height: 55vh;
+    background-image: url("../image/naruto_banner.webp");
+    background-size: 150%;
+    margin-top: 5%;
+}

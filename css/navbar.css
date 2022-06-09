@@ -1,0 +1,21 @@
+nav{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 0 50px !important;
+
+}
+.nav-links{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links a{
+    list-style: none;
+    color: darkblue;
+    font-size: 1.2em;
+}
